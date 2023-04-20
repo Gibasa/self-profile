@@ -1,0 +1,39 @@
+@use 'variables' as v;
+
+.sideBar {
+  position: fixed;
+  right: 0;
+  width: 10%;
+  height: 100%;
+  border-left: 1px solid v.$border-color;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  .side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 6;
+  }
+  .side-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    button {
+      height: 30%;
+    }
+  }
+  .side-socials {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    .icons {
+      color: white;
+      font-size: larger;
+    }
+  }
+}
