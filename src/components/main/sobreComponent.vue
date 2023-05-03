@@ -1,6 +1,6 @@
 <template>
   <div class="sobre">
-    <h2 class="titulo">Sobre Mim</h2>
+    <h2>Sobre Mim</h2>
     <p>
       Meu nome é Gilberto e sou uma pessoa apaixonada por tecnologia e programação desde criança.
       Sempre tive uma afinidade com computadores e tecnologia, o que me levou a escolher a carreira

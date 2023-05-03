@@ -8,10 +8,9 @@ import mainComponent from './components/mainComponent.vue'
   <header>
     <headerComponent/>
     <sideBarComponent/>
-  </header>
-    
+  </header>   
 
-    <div>
+    <div class="main">
       <mainComponent/>
     </div>
 </template>
