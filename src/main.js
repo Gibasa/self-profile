@@ -3,9 +3,10 @@ import App from './App.vue'
 // Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faHtml5, faCss3Alt, faSass, faPython, faJs, faVuejs, faNode } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faGithub, faLinkedin)
+library.add(faGithub, faLinkedin, faDatabase, faHtml5, faCss3Alt, faSass, faPython, faJs, faVuejs, faNode)
 
 const app = createApp(App)
 
