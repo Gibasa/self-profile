@@ -22,8 +22,11 @@ export default {
         { name: 'Python', site: 'https://www.python.org', level: 6, icon: "fa-brands fa-python" },
         { name: 'JavaScript', site: 'https://www.w3schools.com/js/', level: 7, icon: "fa-brands fa-js" },
         { name: 'Vue.js', site: 'https://vuejs.org', level: 7, icon: "fa-brands fa-vuejs" },
+        { name: 'React', site: 'https://react.dev', level: 3, icon: "fa-brands fa-react" },
         { name: 'Node.js', site: 'https://nodejs.org/en', level: 6, icon: "fa-brands fa-node" },
         { name: 'MySQL', site: 'https://www.mysql.com', level: 6, icon: "fa-solid fa-database" },
+        { name: 'Git', site: 'https://git-scm.com', level: 7, icon: "fa-brands fa-git-alt" },
+        { name: 'Github', site: 'https://github.com/', level: 7, icon: "fa-brands fa-github"},
         { name: 'Metodologia Scrum', site: 'https://www.scrum.org/resources/what-scrum-module', level: 8 }
       ]
     }
