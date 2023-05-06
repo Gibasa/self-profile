@@ -1,9 +1,9 @@
 @use 'variables' as v;
 
 .sideBar {
-  position: fixed;
+  position: absolute;
   right: 0;
-  width: 10%;
+  width: 180px;
   height: 100%;
   border-left: 1px solid v.$border-color;
   display: flex;

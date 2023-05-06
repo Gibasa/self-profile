@@ -1,13 +1,16 @@
 <template>
   <div class="skills">
+  <div class="skillsCards">
     <div class="skill" v-for="skill in skills" :key="skill.id">
-      <font-awesome-icon :icon=skill.icon class="icons" />
+    <a :href=skill.site target="_blank"> <font-awesome-icon :icon=skill.icon class="icons" /> </a>
       <div :class="skill.name">{{ skill.name }}</div>
       <div class="skillLevel">
-        <div :style="{ width: `${skill.level * 10}%` }"></div>
+        <div class="skillProgress" :style="{ width: `${skill.level * 10}%` }"></div>
       </div>
     </div>
   </div>
+  <h3>Clique nos icones para saber mais sobre cada um deles.</h3>
+</div>
 </template>
 
 <script>
@@ -27,9 +30,8 @@ export default {
         { name: 'MySQL', site: 'https://www.mysql.com', level: 6, icon: "fa-solid fa-database" },
         { name: 'Git', site: 'https://git-scm.com', level: 7, icon: "fa-brands fa-git-alt" },
         { name: 'Github', site: 'https://github.com/', level: 7, icon: "fa-brands fa-github"},
-        { name: 'Metodologia Scrum', site: 'https://www.scrum.org/resources/what-scrum-module', level: 8 }
       ]
     }
-  }
+  },   
 }
 </script>
