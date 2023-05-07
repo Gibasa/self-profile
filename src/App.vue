@@ -1,17 +1,17 @@
 <script setup>
 import headerComponent from './components/headerComponent.vue';
 import sideBarComponent from './components/sideBarComponent.vue';
-import mainComponent from './components/mainComponent.vue'
+
 </script>
 
 <template>
   <header>
     <headerComponent/>
-    <sideBarComponent/>
+    <sideBarComponent/>   
   </header>   
 
     <div class="main">
-      <mainComponent/>
+      <router-view></router-view>
     </div>
 </template>
 

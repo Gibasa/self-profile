@@ -5,9 +5,9 @@
       <font-awesome-icon icon="fa-brands fa-linkedin" class="icons" />
     </div>  
     <div class="side-menu">
-        <a href="#">Sobre mim</a>
+        <router-link to="/about">Sobre mim</router-link>
         <a href="#">Projetos</a>
-        <a href="#">Competências</a>
+        <routerLink :to="{path: '/skills'}">Competências</routerLink>
         <a href="#">Contate-me</a>
     </div>
     <div class="side-language">
@@ -16,3 +16,6 @@
     
   </div>
 </template>
+<script scoped>
+
+</script>
