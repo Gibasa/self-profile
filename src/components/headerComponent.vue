@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="nav-logo">
-      <a href="#">Gilberto Sá</a>
+      <router-link :to="{path: '/'}">Gilberto Sá</router-link>
     </div>
   </nav>
 </template>

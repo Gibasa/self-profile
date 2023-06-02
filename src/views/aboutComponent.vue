@@ -1,7 +1,6 @@
 <template>
   <img src="../assets/img/GILBERTO.png" alt="" />
   <div class="about">
-
     <div>
       <p>
         Olá! Meu nome é Gilberto e aos 18 anos, decidi ingressar em uma faculdade de ciência da
@@ -85,6 +84,6 @@
 </template>
 <script>
 export default {
-  name: 'aboutComponente'
+  name: 'aboutComponent'
 }
 </script>

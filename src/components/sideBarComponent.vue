@@ -4,8 +4,8 @@
       <font-awesome-icon icon="fa-brands fa-github fa-6x" class="icons" />
       <font-awesome-icon icon="fa-brands fa-linkedin" class="icons" />
     </div>  
-    <div class="side-menu">
-        <router-link to="/about">Sobre mim</router-link>
+    <div class="side-menu">      
+        <router-link :to="{path: '/about'}">Sobre mim</router-link>
         <a href="#">Projetos</a>
         <routerLink :to="{path: '/skills'}">Competências</routerLink>
         <a href="#">Contate-me</a>
