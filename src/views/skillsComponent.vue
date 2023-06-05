@@ -35,3 +35,59 @@ export default {
   },   
 }
 </script>
+<style scoped lang="scss">
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3 {
+        margin-top: 100px;
+    }
+
+}
+.skillsCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+    margin: 20px;
+  }
+  
+  .skillLevel {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .skillProgress {
+    background-color: #4caf50;
+    border-radius: 8px;
+    height: 20px;
+    width: 0;
+    transition: width 1s ease-in-out;    
+  }  
+  
+</style>

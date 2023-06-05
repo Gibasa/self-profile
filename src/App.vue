@@ -11,9 +11,9 @@ import sideBarComponent from './components/sideBarComponent.vue'
 
   <router-view v-slot="{ Component, route }">
     <transition name="route" mode="out-in">
-      <div class="main" :key="route.name">
+      <main :key="route.name">
         <component :is="Component"></component>
-      </div>
+      </main>
     </transition>
   </router-view>
 </template>

@@ -87,3 +87,28 @@ export default {
   name: 'aboutComponent'
 }
 </script>
+
+<style scoped lang="scss">
+img{
+    width: 300px;
+    margin: 20px 20px 400px 20px;
+    border-radius: 50%;
+}
+.about{
+    display: flex;   
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: 10px;
+    div{
+        margin: 10px;
+        flex: 1;
+    }
+    p{
+        font-size: 1.5vh;
+        justify-content:center;
+        line-height: 1.5;
+    }
+    
+}
+</style>
